@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Extra/src/binaryMinHeap&apos;&#x0D;&#x0A;- Original project: &apos;Course3&apos;&#x0D;&#x0A;- Destination element: &apos;Extra/src/binaryMinHeap&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     binaryMinHeap.BinaryMinHeapDriver.java&#x0D;&#x0A;     binaryMinHeap.BinaryMinHeap.java" description="Copy compilation units" destination="=Extra/src&lt;binaryMinHeap" element1="/src&lt;binaryMinHeap{BinaryMinHeapDriver.java" element2="/src&lt;binaryMinHeap{BinaryMinHeap.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1420017344962" units="2" version="1.0"/>
+</session>

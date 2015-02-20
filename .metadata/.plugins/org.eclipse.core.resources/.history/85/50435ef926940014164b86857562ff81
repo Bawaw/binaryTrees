@@ -1,0 +1,35 @@
+package binaryTree;
+
+public class BinaryTreeDriver {
+	
+	public static void main(String[] args){
+		
+		BinaryNode<Character> nodeA = new BinaryNode<Character>('A');
+		BinaryNode<Character> nodeB = new BinaryNode<Character>('B');
+		BinaryNode<Character> nodeC = new BinaryNode<Character>('C');
+		BinaryNode<Character> nodeD = new BinaryNode<Character>('D');
+		BinaryNode<Character> nodeE = new BinaryNode<Character>('E');
+		BinaryNode<Character> nodeF = new BinaryNode<Character>('F');
+		BinaryNode<Character> nodeG = new BinaryNode<Character>('G');
+	
+		nodeC.setLeft(nodeA);
+		nodeC.setRight(nodeG);
+		
+		nodeA.setLeft(nodeD);
+		nodeA.setRight(nodeF);
+		
+		nodeG.setLeft(nodeE);
+		nodeG.setRight(nodeB);
+		
+		BinaryTree<Character> tree = new BinaryTree<Character>(nodeC);
+		
+		System.out.println("pre-order: ");
+		tree.printPreorder(); 
+		tree.printPreorder2();	
+		System.out.println("inorder:"); 
+		tree.printInorder2();
+		System.out.println("levelorder:");
+		tree.printLevelOrder2();
+	}
+	
+}
